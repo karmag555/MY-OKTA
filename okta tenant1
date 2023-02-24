@@ -1,1 +1,26 @@
+var template = `
+    <style>
+    td, th {text-align: center; padding:15px;}
+    table, th, td {
+        border: 1px solid black;
+    }
+    </style>
+    <table>
+        <tr bgcolor="#fc9d03" style="color:#fff;">
+            <th>ID</th>
+            <th>app Name</th>
+            <th>client_id</th>
+			<th>status</th>
+        </tr>
 
+        {{#each response as |item|}}
+            <tr>
+                <td>{{item.id}}</td>
+                <td>{{item.name}}</td>
+                <td>{{item.label}}</td>
+                <td>{{item.oauthClient.client_id}}</td>
+                <td>{{item._source.subsystem}}</td>
+                <td style="padding-right:15px">{{item._source.message}}</td>
+            </tr>
+        {{/each}}
+    </table>
