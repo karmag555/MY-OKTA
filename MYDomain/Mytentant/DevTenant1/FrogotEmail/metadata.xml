@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor entityID="https://www.okta.com/saml2/service-provider/spionewvygyzaecznoja" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="encryption"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIDrDCCApSgAwIBAgIGAW6k0tvsMA0GCSqGSIb3DQEBCwUAMIGWMQswCQYDVQQGEwJVUzETMBEG
+A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU
+MBIGA1UECwwLU1NPUHJvdmlkZXIxFzAVBgNVBAMMDmNpZ25hLW9rdGFjaWFtMRwwGgYJKoZIhvcN
+AQkBFg1pbmZvQG9rdGEuY29tMB4XDTE5MTEyNTIzMDczMloXDTI5MTEyNTIzMDgzMlowgZYxCzAJ
+BgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRYwFAYDVQQHDA1TYW4gRnJhbmNpc2NvMQ0w
+CwYDVQQKDARPa3RhMRQwEgYDVQQLDAtTU09Qcm92aWRlcjEXMBUGA1UEAwwOY2lnbmEtb2t0YWNp
+YW0xHDAaBgkqhkiG9w0BCQEWDWluZm9Ab2t0YS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQCJveGHpJffSU8dNqO6kBlYyVNdVKec8cMdu3CziLssICRACmFzsnYU5J96PHGYqCyg
+vxiOZUbrWnMszgFPV/TGRCJyxBL0UOCNcsagvC2scTqoGN5IIEZzDLFLKrJvN/jrZZQ5RBbApl+8
+/6U3PJKB45W3WGMFoSV4x6Ud9fdvT8LXRuqE4DHnmFRZarOI5vpinFAFKkaiFxeAMgIW+dmjJt8w
+4PQ9Wuf3tdafY47w4XJvv/gZIiw6tdGVgEodnDTGsxVB/2+ihaU45HS/xfo72Xs68UFhwJVHADip
+9dokDVSqBjOW9k1xwNYQfbnR8jS6yOQOrFYvWZJf1nY+dVEJAgMBAAEwDQYJKoZIhvcNAQELBQAD
+ggEBAHA2Nd3c9PwjZB4v8DnSdqFC/DlacYxO2QbgkslN8tFmS2fq1OXMcw0y/I5A6jXi/dEixctv
+bkkLeWipWf60v0tfxCUUPa57Kyrev330IJGK/uYtI9UPeuIqBZ+Pbds3wpt17wT6nzrv3hmIU4cS
+XOb9IxZCJY9+Sy7cCehKZUovnv7RDv1xgFMtSu19jamKItsDxO7nYJgTXX3xhmegoT9imySm1kb4
+7w7jbs1nhBrABSFx+cE8RkfWmml+RRsa7GUJFgti4yEi591tomGQTJasy/ZRZr04ZZ58e1ZmZivP
+inMDk3DQh2EiVRiH4jGXc5vOqhZJokC/eRHCBqPsk2o=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc"/><md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes192-cbc"/><md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc"/><md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes128-gcm"/><md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes256-gcm"/><md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/></md:KeyDescriptor><md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIDrDCCApSgAwIBAgIGAW6k0tvsMA0GCSqGSIb3DQEBCwUAMIGWMQswCQYDVQQGEwJVUzETMBEG
+A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU
+MBIGA1UECwwLU1NPUHJvdmlkZXIxFzAVBgNVBAMMDmNpZ25hLW9rdGFjaWFtMRwwGgYJKoZIhvcN
+AQkBFg1pbmZvQG9rdGEuY29tMB4XDTE5MTEyNTIzMDczMloXDTI5MTEyNTIzMDgzMlowgZYxCzAJ
+BgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRYwFAYDVQQHDA1TYW4gRnJhbmNpc2NvMQ0w
+CwYDVQQKDARPa3RhMRQwEgYDVQQLDAtTU09Qcm92aWRlcjEXMBUGA1UEAwwOY2lnbmEtb2t0YWNp
+YW0xHDAaBgkqhkiG9w0BCQEWDWluZm9Ab2t0YS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQCJveGHpJffSU8dNqO6kBlYyVNdVKec8cMdu3CziLssICRACmFzsnYU5J96PHGYqCyg
+vxiOZUbrWnMszgFPV/TGRCJyxBL0UOCNcsagvC2scTqoGN5IIEZzDLFLKrJvN/jrZZQ5RBbApl+8
+/6U3PJKB45W3WGMFoSV4x6Ud9fdvT8LXRuqE4DHnmFRZarOI5vpinFAFKkaiFxeAMgIW+dmjJt8w
+4PQ9Wuf3tdafY47w4XJvv/gZIiw6tdGVgEodnDTGsxVB/2+ihaU45HS/xfo72Xs68UFhwJVHADip
+9dokDVSqBjOW9k1xwNYQfbnR8jS6yOQOrFYvWZJf1nY+dVEJAgMBAAEwDQYJKoZIhvcNAQELBQAD
+ggEBAHA2Nd3c9PwjZB4v8DnSdqFC/DlacYxO2QbgkslN8tFmS2fq1OXMcw0y/I5A6jXi/dEixctv
+bkkLeWipWf60v0tfxCUUPa57Kyrev330IJGK/uYtI9UPeuIqBZ+Pbds3wpt17wT6nzrv3hmIU4cS
+XOb9IxZCJY9+Sy7cCehKZUovnv7RDv1xgFMtSu19jamKItsDxO7nYJgTXX3xhmegoT9imySm1kb4
+7w7jbs1nhBrABSFx+cE8RkfWmml+RRsa7GUJFgti4yEi591tomGQTJasy/ZRZr04ZZ58e1ZmZivP
+inMDk3DQh2EiVRiH4jGXc5vOqhZJokC/eRHCBqPsk2o=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://t-login.cigna.com/sso/saml2/0oa1ioz6gq8dG8xSx0h8" index="0" isDefault="true"/><md:AttributeConsumingService index="0"><md:ServiceName xml:lang="en">SSO for Envoy Member Portal - AON</md:ServiceName><md:RequestedAttribute FriendlyName="First Name" Name="firstName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/><md:RequestedAttribute FriendlyName="Last Name" Name="lastName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/><md:RequestedAttribute FriendlyName="Email" Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/><md:RequestedAttribute FriendlyName="Mobile Phone" Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="false"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization><md:OrganizationName xml:lang="en">cigna-oktaciam</md:OrganizationName><md:OrganizationDisplayName xml:lang="en">Cigna CIAM Development</md:OrganizationDisplayName><md:OrganizationURL xml:lang="en">http://www.cigna.com/</md:OrganizationURL></md:Organization></md:EntityDescriptor>
